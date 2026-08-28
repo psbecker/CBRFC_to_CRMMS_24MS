@@ -1,7 +1,7 @@
 library(tidyverse)
 
 # Define the folder path explicitly
-output_folder <- "C:/Users/pbecker/OneDrive - DOI/Desktop/Projects/24MS/Comparitive Runs/ESP_DataFiles/CBRFC_Aug24_raw"
+output_folder <- "C:/Users/ESP_DataFiles/CBRFC_Apr25_adj"
 
 # 1. Find all files matching the clean CSV output pattern
 #change to "RAW.*.csv" if pulling the raw or "ADJ.*.csv" if pulling the adjusted
