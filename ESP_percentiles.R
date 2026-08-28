@@ -34,9 +34,9 @@ for (file in file_list) {
   
   summary_df <- data.frame(
     Date = df[[date_col]],
-    `10th_Percentile` = apply(numeric_data, 1, quantile, probs = 0.10, na.rm = TRUE),
-    `50th_Percentile` = apply(numeric_data, 1, quantile, probs = 0.50, na.rm = TRUE), # Median
-    `90th_Percentile` = apply(numeric_data, 1, quantile, probs = 0.90, na.rm = TRUE),
+    `10th_Percentile` = apply(numeric_data, 1, quantile, probs = 0.10, na.rm = TRUE, type = 6), #type 6 for weibull distribution
+    `50th_Percentile` = apply(numeric_data, 1, quantile, probs = 0.50, na.rm = TRUE, type = 6), # Median
+    `90th_Percentile` = apply(numeric_data, 1, quantile, probs = 0.90, na.rm = TRUE, type = 6),
     check.names = FALSE
   )
   
