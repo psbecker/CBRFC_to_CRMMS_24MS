@@ -67,8 +67,8 @@ process_cbrfc_streamlined <- function(url, output_dir) {
 
 # ==================== MAIN AUTOMATION CONTROLLER ====================
 
-index_url <- "https://www.cbrfc.noaa.gov/outgoing/32month/archive/raw/apr25/index.php"
-output_directory <- "C:/Users/pbecker/OneDrive - DOI/Desktop/Projects/24MS/Comparitive Runs/ESP_DataFiles/CBRFC_Apr25raw"
+index_url <- "https://www.cbrfc.noaa.gov/outgoing/32month/archive/adj/apr25/index.php"
+output_directory <- "C:/Users/ESP_DataFiles/CBRFC_Apr25adj"
 
 if (!dir.exists(output_directory)) {
   dir.create(output_directory)
