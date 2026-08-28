@@ -4,8 +4,8 @@ library(openxlsx)
 
 # Set input and output directories 
 # (Point input_dir to the folder where your combined_*.csv files are located)
-input_dir  <- "C:/Users/pbecker/OneDrive - DOI/Desktop/Projects/24MS/Comparitive Runs/ESP_DataFiles/CBRFC_August26_Raw_Data"
-output_dir <- "C:/Users/pbecker/OneDrive - DOI/Desktop/Projects/24MS/Comparitive Runs/ESP_DataFiles/Aug_26_fcstfiles/"
+input_dir  <- "C:/Users/ESP_DataFiles/CBRFC_Apr25_adj_Data"
+output_dir <- "C:/Users/ESP_DataFiles/Apr_25_fcstfiles/"
 
 # Ensure the output directory exists
 if (!dir.exists(output_dir)) {
